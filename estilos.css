@@ -1,0 +1,66 @@
+h1{
+    text-align: center;
+    padding: 45px;
+}
+ul {
+    text-align: center;
+}
+a{
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+.Pendentes{
+    background-color: #8FD14F;
+    color: black;
+    margin: 6px;
+}
+    
+.Concluidas{
+    background-color: #0CA789;
+    color: black;
+    margin: 6px;
+}
+
+.Excluidas{
+    background-color: #EB4045;
+    color: black;
+    margin: 6px;
+}
+
+
+div{
+    width: 500px;
+    border-radius: 20px;
+    text-decoration: none;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 3px black;
+}
+div:nth-child(even){
+    background-color: white;
+}
+
+div:hover{
+    transform: scale(1.1);
+}
+
+ .alerta{
+    padding: 9px;
+    border-radius: 5px;
+    color: black;
+    margin: 6px;
+ }
+
+ .trabalho1{
+    background-color: #8FD14F;
+ }
+
+ .concluidas1{
+    background-color: #0CA789;
+ }
+
+ .excluidas1{
+    background-color: #EB4045;
+ }
